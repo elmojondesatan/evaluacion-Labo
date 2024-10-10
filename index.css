@@ -1,0 +1,24 @@
+#root{
+    display: grid;
+    grid-template-columns: 25rem;
+    grid-template-rows: 20rem 20rem 20rem;
+ }
+ 
+ 
+ .componentes1{
+    grid-row: 1/1;
+    border: 1px solid black;
+ }
+ 
+ 
+ .componentes2{
+    grid-row: 2/2;
+    border: 1px solid black;
+ }
+ 
+ 
+ .componentes3{
+    grid-row: 3/3;
+    border: 1px solid black;
+ }
+ 
