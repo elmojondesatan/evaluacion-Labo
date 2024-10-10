@@ -1,0 +1,23 @@
+.padre-2{
+    padding: 2rem 1rem 1rem ;
+ }
+ 
+ 
+ .div-componentes{
+    border: 1px solid black;
+    width: 20rem;
+    height: 3rem;
+ }
+ 
+ 
+ .div-boton{
+    border: 1px solid black;
+    width: 5rem;
+    height: 3rem;
+ 
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 

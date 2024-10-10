@@ -1,5 +1,6 @@
 import { padre } from "./Componente/componente_1/componente_1.js";
 
+import { padre2 } from "./Componente/componente_2/componente_2.js";
 
 
 let DOM = document.querySelector("#root");
@@ -13,6 +14,7 @@ DOM.appendChild(componentes_1);
 
 let componentes_2 = document.createElement('div');
 componentes_2.className = "componentes2";
+componentes_2.appendChild(padre2);
 DOM.appendChild(componentes_2);
 
 
